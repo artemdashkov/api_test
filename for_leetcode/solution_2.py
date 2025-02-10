@@ -30,3 +30,6 @@ class Solution:
         for num in s:
             self.year += ROMAN_NUM[num]
         return self.year
+
+solution = Solution()
+print(solution.__dict__)
